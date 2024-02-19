@@ -1,0 +1,92 @@
+.layout {
+    background-color: rgb(245, 224, 238);
+    width: 960px;
+}
+.nav {
+    display: flex;
+    border: 1px solid ;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    
+}
+.nav li{
+    float: left;
+    width: 120px;
+    height: 30px;
+    list-style: none;
+    line-height: 30px;
+    position: relative;
+    text-indent: 15px;
+}
+li a{
+    text-decoration: none;
+}
+a.a1{
+    color: blue;
+}
+a.a1:hover{
+    color: yellow;
+}
+.searchl{
+    color: red;
+}
+.go{
+    background-color: blue;
+    color: white;
+}
+.header {
+    border: 1px solid ;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+}
+.tam {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.section {
+    float:left;
+    border: 1px solid;
+    width: 70%;
+    height: 500px;
+}
+.aside {
+    width:30%;
+    height: 500px;
+    float:right;
+    border: 1px solid ;
+}
+.view {
+    width: 280px;
+    height: 80px;
+}
+.Restaurant {
+    width: 280px;
+    height: 80px;
+}
+.Conferenceroom{
+    width: 280px;
+    height: 140px;
+}
+
+.footer {
+    border: 1px solid ;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(193, 199, 19) ;
+}
+.mssv {
+    float: left;
+    width: 300px;
+    height: 30px;
+    line-height: 0px;
+}
+.lop {
+    float: right;
+    width: 200px;
+    height: 30px;
+    line-height: 0px;
+}
